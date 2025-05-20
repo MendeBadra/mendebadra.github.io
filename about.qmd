@@ -1,18 +1,21 @@
 ---
 title: "About"
-image: mongol_dog.jpeg
+image: mende.jpeg
 about:
   template: jolla
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://x.com/AmarBadral
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/mend-amar-badral-64217a28a/
     - icon: github
       text: Github
       href: https://github.com/MendeBadra
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/mendamar.badral
 
 ---
 
