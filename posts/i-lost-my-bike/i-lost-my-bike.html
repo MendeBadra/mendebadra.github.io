@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog</title>
+<title>i-lost-my-bike – Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e8d286fa61406786f9a519d87c419ab2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e8d286fa61406786f9a519d87c419ab2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +100,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Blog</span>
     </a>
   </div>
@@ -149,7 +123,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -170,180 +144,29 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="dGhvdWdodHM=">thoughts <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<div id="0067a5e5" class="cell" data-vscode="{&quot;languageId&quot;:&quot;plaintext&quot;}">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title: I lost my f<span class="op">*</span>king bike</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>date: <span class="dv">2025</span><span class="op">-</span><span class="dv">0</span><span class="er">6</span><span class="op">-</span><span class="dv">26</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>description: I have just lost my bike <span class="kw">and</span> I feel very down</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>categories: [thoughts]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>I lost my f*king bike. I just lost it. I should’ve never got lazy and left my bike outside. F*ck. It was a thing that genuinely gave me a joy. “You only gonna love her when you let her go” said somebody. I get it now. To this thief, you just stole my most precious thing. It was a modest bike with not much glamour. But it had a value. It was the mode of transport that I enjoyed dearly. I had never had nice toys, good phones etc. But I was exposed to such items from young age because I went to kind of an rich people kids’ school. I don’t have anything against them but truth of the matter was I kinda was poor. During COVID, I truly come to this fact. But I expected to things turn better perhaps too soon. I was still the guy with the poorest in my university graduation ceremony. I might be bit materialist, but, man, I truly wish that for just once in my life, to feel that I’m equal in wealth to my peers. And now, I have nothing. That makes me feel like I’m nothing.</p>
 
 
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1750949115149" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
-<div class="thumbnail">
-<p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a></p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external">I lost my f*king bike. I just lost it. I should’ve never got lazy and left my bike outside. F*ck. It was a thing that genuinely gave me a joy. “You only gonna love her when…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a></p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1741438148285" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail">
-<p><a href="./posts/fft/fft.html" class="no-external"></a></p><a href="./posts/fft/fft.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/fft/fft.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fft/fft.html" class="no-external">Why Fast Fourier Transform works?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/fft/fft.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/fft/fft.html" class="no-external">I had this question a while ago, and I can’t seem to quite understand it in any kind of easy way. Let’s first start with Discrete Fourier Transform. It has something to do…<span class="math display"></span></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/fft/fft.html" class="no-external"></a></p><a href="./posts/fft/fft.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="dGhvdWdodHM=" data-listing-date-sort="1747670400000" data-listing-file-modified-sort="1747703572288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
-<div class="thumbnail">
-<p><a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external"></a></p><a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">Why Digital Nomads Should consider Mongolia as their next destination</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dGhvdWdodHM='); return false;">
-thoughts
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">My thoughts on why Mongolia is so beautiful and why you should visit Mongolia</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">
-<div class="listing-date">
-May 20, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="dGhvdWdodHM=" data-listing-date-sort="1743868800000" data-listing-file-modified-sort="1743933983940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
-<div class="thumbnail">
-<p><a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external"></a></p><a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">How to succeed- My reflections</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dGhvdWdodHM='); return false;">
-thoughts
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">My initial thoughts about blogs, essays and writing in general.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">
-<div class="listing-date">
-Apr 6, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="dGhvdWdodHM=" data-listing-date-sort="1741017600000" data-listing-file-modified-sort="1741100813393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
-<div class="thumbnail">
-<p><a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external"></a></p><a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">My First Blog entry</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dGhvdWdodHM='); return false;">
-thoughts
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">My initial thoughts about blogs, essays and writing in general.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">
-<div class="listing-date">
-Mar 4, 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
