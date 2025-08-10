@@ -11,7 +11,7 @@
     "href": "posts/agriculture_demo/agriculture_demo.html",
     "title": "Drone Agricultural Landing Page Demo",
     "section": "",
-    "text": "So, I have been tinkering with the latest LLMs to create a landing page with Tailwind CSS. I don’t currently remember the exact prompt and which model I used, but I hope to find it from all of the LLM provider websites that I signed up for.\n{{}}"
+    "text": "So, I have been tinkering with the latest LLMs to create a landing page with Tailwind CSS. I don’t currently remember the exact prompt and which model I used, but I hope to find it from all of the LLM provider websites that I signed up for.\n{{index.html}}"
   },
   {
     "objectID": "posts/fft/fft.html",
