@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: mende.jpeg
+image: files/mende.jpeg
 about:
   template: jolla
   links:
@@ -21,7 +21,7 @@ about:
       href: mendamar345@gmail.com
     - icon: file-pdf
       text: Download CV
-      href: MendeeResumeEn.pdf
+      href: files/MendeeResumeEn.pdf
 
 ---
 
