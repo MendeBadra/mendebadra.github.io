@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://MendeBadra.github.io/mendebadra.github.io/about.html</loc>
-    <lastmod>2025-08-11T23:58:11.762Z</lastmod>
+    <lastmod>2025-08-12T00:10:17.839Z</lastmod>
   </url>
   <url>
     <loc>https://MendeBadra.github.io/mendebadra.github.io/posts/agriculture_demo/agriculture_demo.html</loc>
@@ -19,6 +19,10 @@
   <url>
     <loc>https://MendeBadra.github.io/mendebadra.github.io/posts/my-first-blog-entry/my-first-blog-entry.html</loc>
     <lastmod>2025-03-04T15:06:53.393Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MendeBadra.github.io/mendebadra.github.io/blog.html</loc>
+    <lastmod>2025-08-12T00:06:01.166Z</lastmod>
   </url>
   <url>
     <loc>https://MendeBadra.github.io/mendebadra.github.io/posts/digital-nomads-mongolia/digital-nomads-mongolia.html</loc>
@@ -38,6 +42,6 @@
   </url>
   <url>
     <loc>https://MendeBadra.github.io/mendebadra.github.io/index.html</loc>
-    <lastmod>2025-08-12T00:03:54.998Z</lastmod>
+    <lastmod>2025-08-12T00:10:51.409Z</lastmod>
   </url>
 </urlset>
