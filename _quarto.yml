@@ -17,5 +17,9 @@ format:
       - brand
     css: styles.css
 
+resources:
+  - "*.pdf"
+  - "files/"
+
 
 
