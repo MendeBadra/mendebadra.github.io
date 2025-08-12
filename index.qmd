@@ -25,6 +25,6 @@ about:
 
 ---
 
-About this blog: This is my blog to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.
+About this blog: This is my [blog](https://mendebadra.github.io/blog.html) to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.
 
 Contact: mendamar345@gmail.com
