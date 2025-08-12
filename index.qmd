@@ -1,14 +1,30 @@
 ---
-title: "Blog"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "About"
+image: mende.jpeg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/AmarBadral
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mend-amar-badral-64217a28a/
+    - icon: github
+      text: Github
+      href: https://github.com/MendeBadra
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/mendamar.badral
+    - icon: google
+      text: Gmail
+      href: mendamar345@gmail.com
+    - icon: 
+      text: Download CV
+      href: MendeeResumeEn.pdf
+
 ---
 
+About this blog: This is my blog to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.
 
+Contact: mendamar345@gmail.com
