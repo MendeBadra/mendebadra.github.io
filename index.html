@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog</title>
+<title>About – Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -68,73 +65,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -170,284 +109,55 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="aHRtbA==">html <span class="quarto-category-count">(2)</span></div><div class="category" data-category="anVsaWE=">julia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGhvdWdodHM=">thoughts <span class="quarto-category-count">(4)</span></div><div class="category" data-category="d2Vi">web <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<div class="quarto-about-jolla">
+  <img src="mende.jpeg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">About</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header><main class="content" id="quarto-document-content">
+<p>About this blog: This is my blog to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.</p>
+<p>Contact: mendamar345@gmail.com</p>
 
 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1741438148285" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail">
-<p><a href="./posts/fft/fft.html" class="no-external"></a></p><a href="./posts/fft/fft.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/fft/fft.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fft/fft.html" class="no-external">Why Fast Fourier Transform works?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/fft/fft.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/fft/fft.html" class="no-external">I had this question a while ago, and I can’t seem to quite understand it in any kind of easy way. Let’s first start with Discrete Fourier Transform. It has something to do…<span class="math display"></span></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/fft/fft.html" class="no-external"></a></p><a href="./posts/fft/fft.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="aHRtbCUyQ3dlYg==" data-listing-date-sort="1754755200000" data-listing-file-modified-sort="1754819837181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail">
-<p><a href="./posts/agriculture_demo/agriculture_demo.html" class="no-external"></a></p><a href="./posts/agriculture_demo/agriculture_demo.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/agriculture_demo/agriculture_demo.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/agriculture_demo/agriculture_demo.html" class="no-external">Drone Agricultural Landing Page Demo</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/agriculture_demo/agriculture_demo.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('aHRtbA=='); return false;">
-html
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d2Vi'); return false;">
-web
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/agriculture_demo/agriculture_demo.html" class="no-external">With latest LLM tools, it has become very easy to create a landing page for any topic you want. This is a demo for a drone agricultural business landing page.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/agriculture_demo/agriculture_demo.html" class="no-external">
-<div class="listing-date">
-Aug 10, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="aHRtbCUyQ3dlYg==" data-listing-date-sort="1753804800000" data-listing-file-modified-sort="1753840007366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
-<div class="thumbnail">
-<p><a href="./posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html" class="no-external"></a></p><a href="./posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html" class="no-external">Sin function Interpolation - Bishop’s Deep Learning: Foundations and Concepts</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('aHRtbA=='); return false;">
-html
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d2Vi'); return false;">
-web
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html" class="no-external">The sin function interpolation example from Bishop’s Deep Learning book, demonstrating concepts of machine learning.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html" class="no-external">
-<div class="listing-date">
-Jul 30, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="anVsaWE=" data-listing-date-sort="1752249600000" data-listing-file-modified-sort="1754820051252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="399">
-<div class="thumbnail">
-<p><a href="./posts/togetherai-in-julia/togetherai-in-julia.html" class="no-external"></a></p><a href="./posts/togetherai-in-julia/togetherai-in-julia.html" class="no-external">
-<p class="card-img-top"><img src="posts/togetherai-in-julia/togetherai-in-julia_files/figure-html/d992fda3-1-image.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/togetherai-in-julia/togetherai-in-julia.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/togetherai-in-julia/togetherai-in-julia.html" class="no-external">How to use TogetherAI in Julia</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/togetherai-in-julia/togetherai-in-julia.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('anVsaWE='); return false;">
-julia
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/togetherai-in-julia/togetherai-in-julia.html" class="no-external">How you can use TogetherAI in Julia programming language.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/togetherai-in-julia/togetherai-in-julia.html" class="no-external">
-<div class="listing-date">
-Jul 12, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="dGhvdWdodHM=" data-listing-date-sort="1750867200000" data-listing-file-modified-sort="1750979192479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
-<div class="thumbnail">
-<p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a></p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external">I lost my f*king bike</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dGhvdWdodHM='); return false;">
-thoughts
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external">I have just lost my bike and I feel very down</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/i-lost-my-bike/i-lost-my-bike.html" class="no-external">
-<div class="listing-date">
-Jun 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="dGhvdWdodHM=" data-listing-date-sort="1747670400000" data-listing-file-modified-sort="1747703572288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
-<div class="thumbnail">
-<p><a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external"></a></p><a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">Why Digital Nomads Should consider Mongolia as their next destination</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dGhvdWdodHM='); return false;">
-thoughts
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">My thoughts on why Mongolia is so beautiful and why you should visit Mongolia</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/digital-nomads-mongolia/digital-nomads-mongolia.html" class="no-external">
-<div class="listing-date">
-May 20, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="dGhvdWdodHM=" data-listing-date-sort="1743868800000" data-listing-file-modified-sort="1743933983940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
-<div class="thumbnail">
-<p><a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external"></a></p><a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">How to succeed- My reflections</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dGhvdWdodHM='); return false;">
-thoughts
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">My initial thoughts about blogs, essays and writing in general.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/how-to-succeed/how-to-succeed.html" class="no-external">
-<div class="listing-date">
-Apr 6, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="dGhvdWdodHM=" data-listing-date-sort="1741017600000" data-listing-file-modified-sort="1741100813393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
-<div class="thumbnail">
-<p><a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external"></a></p><a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">My First Blog entry</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dGhvdWdodHM='); return false;">
-thoughts
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">My initial thoughts about blogs, essays and writing in general.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/my-first-blog-entry/my-first-blog-entry.html" class="no-external">
-<div class="listing-date">
-Mar 4, 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://x.com/AmarBadral" class="about-link" rel="" target="">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">Twitter</span>
+  </a>
+  <a href="https://www.linkedin.com/in/mend-amar-badral-64217a28a/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/MendeBadra" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://www.facebook.com/mendamar.badral" class="about-link" rel="" target="">
+    <i class="bi bi-facebook"></i>
+     <span class="about-link-text">Facebook</span>
+  </a>
+  <a href="/mendamar345@gmail.com" class="about-link" rel="" target="">
+    <i class="bi bi-google"></i>
+     <span class="about-link-text">Gmail</span>
+  </a>
+  <a href="/MendeeResumeEn.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-pdf"></i>
+     <span class="about-link-text">Download CV</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -468,13 +178,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
