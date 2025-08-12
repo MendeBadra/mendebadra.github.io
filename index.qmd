@@ -19,7 +19,7 @@ about:
     - icon: google
       text: Gmail
       href: mendamar345@gmail.com
-    - icon: 
+    - icon: file-pdf
       text: Download CV
       href: MendeeResumeEn.pdf
 
