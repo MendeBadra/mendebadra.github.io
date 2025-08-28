@@ -24,7 +24,8 @@ about:
       href: files/MendeeResumeEn.pdf
 
 ---
+About me: I am currently a MSc Computer Science Engineering student at Budapest University of Technology and Economics (BME) studying with the prestigous Stipendium Hungaricum Scholarship. I was born and raised in Mongolia, and interested in multiple areas like GIS, deep learning, programming.
 
-About this blog: This is my blog to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.
+About the blog: This is my blog to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.
 
 Contact: mendamar345@gmail.com
