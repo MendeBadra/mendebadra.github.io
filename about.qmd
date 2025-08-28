@@ -24,6 +24,7 @@ about:
       href: files/MendeeResumeEn.pdf
 
 ---
+
 About me: Hello! My name is **Mend-Amar Badral** and I am currently studing in MSc Computer Science Engineering programme at Budapest University of Technology and Economics (BME). I am studying with the prestigous Stipendium Hungaricum Scholarship. I was born and raised in Mongolia, and where I became interested in multiple areas like GIS, deep learning, computer vision and programming.
 
 About the blog: This is my blog to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.
