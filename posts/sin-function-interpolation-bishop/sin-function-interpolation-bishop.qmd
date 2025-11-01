@@ -4,4 +4,4 @@ date: 2025-07-30
 description: "The sin function interpolation example from Bishop's Deep Learning book, demonstrating concepts of machine learning."
 categories: [html, web]
 ---
-{{< include www/sin_func_interpolation.html >}}
+<iframe src="www/sin_func_interpolation.html" style="width:100%;height:700px;border:0"></iframe>

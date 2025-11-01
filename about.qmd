@@ -21,7 +21,7 @@ about:
       href: mendamar345@gmail.com
     - icon: file-pdf
       text: Download CV
-      href: files/MendeeResumeEn.pdf
+      href: https://mendebadra.github.io/MendeeResume/cv.pdf
 
 ---
 
