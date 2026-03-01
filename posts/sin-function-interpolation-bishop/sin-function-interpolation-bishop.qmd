@@ -5,5 +5,5 @@ description: "The sin function interpolation example from Bishop's Deep Learning
 categories: [html, web]
 
 ---
-Check out in [this](https://pluto.land/n/chtidu6q) link for more user-friendly manner.
+Check out in [this](https://pluto.land/n/chtidu6q) link for more user-friendly experience.
 <iframe src="www/sin_func_interpolation.html" style="width:100%;height:700px;border:0"></iframe>
