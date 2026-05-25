@@ -1,4 +1,5 @@
-This is my main branch of my blog. I post here sporadically.
+# `mendebadra` blog website
+This is my main branch of my blog. I post here sporadically. I followed this [quarto documentation](https://quarto.org/docs/publishing/github-pages.html).
 
 
 Following is the reminder to myself:
