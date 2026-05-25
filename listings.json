@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/bike-sharing-dataset/bike_sharing_dataset_eda.html",
+      "/posts/togetherai-in-julia/togetherai-in-julia.html",
+      "/posts/fft/fft.html",
+      "/posts/sin-function-interpolation-bishop/sin-function-interpolation-bishop.html",
+      "/posts/i-lost-my-bike/i-lost-my-bike.html",
+      "/posts/digital-nomads-mongolia/digital-nomads-mongolia.html",
+      "/posts/my-first-blog-entry/my-first-blog-entry.html"
+    ]
+  }
+]
