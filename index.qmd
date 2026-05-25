@@ -22,7 +22,10 @@ about:
 
 ---
 
-About me: Hello! My name is **Mend-Amar Badral** and I am currently studing in *MSc Computer Science Engineering* programme at Budapest University of Technology and Economics (BME).
+Hello! My name is **Mend-Amar Badral** and I am currently studing in *MSc Computer Science Engineering* programme at Budapest University of Technology and Economics (BME). 
 I've recently wrote a thesis. Check it out [here](https://heyzine.com/flip-book/ba3096dda3.html).
+
+
+Also don't forget to check out my [blogs](https://mendebadra.github.io/blog.html) as well.
 
 Contact: mendamar345@gmail.com
