@@ -1,5 +1,5 @@
 # `mendebadra` blog website
-This is my main branch of my blog. I post here sporadically. I followed this [quarto documentation](https://quarto.org/docs/publishing/github-pages.html).
+This is my main branch of my blog. I post here sporadically. I followed this [quarto documentation](https://quarto.org/docs/publishing/github-pages.html) and [this](https://www.jtrive.com/posts/creating-gh-pages-blog-with-quarto/creating-gh-pages-blog-with-quarto.html) excellent blog post as well.
 
 
 Following is the reminder to myself:
