@@ -1,12 +1,9 @@
 ---
-title: "Mend-Amar Badral"
+title: "About me"
 image: files/mende.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://x.com/AmarBadral
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/mend-amar-badral-64217a28a/
@@ -21,10 +18,11 @@ about:
       href: mendamar345@gmail.com
     - icon: file-pdf
       text: Download CV
-      href: files/MendeeResumeEn.pdf
+      href: https://mendebadra.github.io/MendeeResume/cv.pdf
 
 ---
 
-About this blog: This is my [blog](https://mendebadra.github.io/blog.html) to share my ideas, mainly wanted to improve my writing skills. If you want to connect with me for correspondence, please contact me.
+About me: Hello! My name is **Mend-Amar Badral** and I am currently studing in *MSc Computer Science Engineering* programme at Budapest University of Technology and Economics (BME).
+I've recently wrote a thesis. Check it out [here](https://heyzine.com/flip-book/ba3096dda3.html).
 
 Contact: mendamar345@gmail.com
